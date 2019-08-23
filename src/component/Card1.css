@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  color: white;
+  font-size: larger;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  font-family: arial, fantasy;
+  width: 400px;
+  height: 500px;
+}
+
+.demo {
+  padding-left: 20px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 20px;
+}
+
+.top-left {
+  top: 8px;
+
+  position: absolute;
+  left: -10px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.round3 {
+  border-radius: 1px 30px 30px 0px;
+  background: black;
+  padding: 20px;
+  width: 112px;
+  height: 60px;
+  color: white;
+  text-align: justify;
+}
+
+.icon {
+  padding-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
